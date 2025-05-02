@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task7_css</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: blue;
+        }
+
+        #nav {
+            width: 150px;
+            margin-right: 40px;
+        }
+
+        #nav li {
+            padding:10px;
+            width:150px;
+            margin-bottom: 10px;
+            background: white;
+            border-right: 15px solid black;
+        }
+
+        .container {
+            display: flex;
+            width: 40%;
+            height: 500px;
+            background-color: rgb(192, 192, 53);
+            padding: 10px;
+        }
+
+        #content {
+            color: rgb(133, 27, 133);
+            margin: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div id="nav">
+            <ul>
+                <li><a href="#">Home page</a></li>
+                <li><a href="">Musings</a></li>
+                <li><a href="">My town</a></li>
+                <li><a href="">Links</a></li>
+            </ul>
+        </div>
+        <div id="content">
+            <h1>My First Styled Page</h1>
+            <p>Welcome to by Styled Page!</p>
+            <p>It lacks images, but at least it has style. And it has links, even if they don't go anywhere...</p>
+            <p>There should be more here, but I don't know what yet.</p>
+            <hr>
+            <p><i>May 5 April 2004</i></p>
+            <p><i>by myself</i></p>
+        </div>
+    </div>
+</body>
+
+</html>

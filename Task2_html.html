@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task2_html</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .list {
+            border: 1px solid black;
+            width: 300px;
+            align-items: center;
+            padding: 10px;
+        }
+
+        .box {
+            border: 1px solid black;
+            width: 500px;
+            background-color: beige;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="list">
+            <p>Lists can be nested(list inside list)</p>
+            <ul>
+                <li>Coffee</li>
+                <li>Tea</li>
+                <ul>
+                    <li style="list-style-type:circle">Black Tea</li>
+                    <li>Green Tea</li>
+                </ul>
+                <li>Milk</li>
+            </ul>
+        </div>
+        <br>
+        <div class="box">
+            <p>Click any of following links</p>
+            <nav class="nav-bar"><a href="#"> Opens in New</a>| <a href="#"> Opens in Self </a>| <a href="#"> Opens in
+                    Parent</a> |<a href="#"> Opens in Body </a></nav>
+        </div>
+    </div>
+</body>
+
+</html>
